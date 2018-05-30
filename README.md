@@ -1,8 +1,9 @@
 # Trabalhando com Fluxo de Trabalho Mermaid
 ```mermaid
 graph TD
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+Mercado --> Cadastrar
+Mercado --> Listar_Produtos 
+Cadastrar --> EnviarDados
+EnviarDados -->BD
 ```
+![Imagem](https://github.com/duuh30/vendedor/blob/master/Diagrama.svg)
