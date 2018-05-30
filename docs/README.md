@@ -1,11 +1,8 @@
-# Trabalhando com Fluxo de Trabalho Mermaid
-```mermaid
-graph TD
-Banco
-Banco-->tbFrutas
-tbFrutas--> Nome
-tbFrutas--> Quantidade
-tbFrutas --> Preço
-```
+# Tabela Frutas
+| CAMPOS        |     TIPO      |TAMANHO|NOT NULL|AUTO_INCREMENT  | Primary Key 
+| ------------- |:-------------:| -----:|--------:|------:        |  -------------:
+| Código        | INT           | 10    |SIM      |SIM            |SIM
+| Nome          | VARCHAR       | 50    |SIM      |               |NÃO
+| Quantidade    | INT           | 10    |NÃO      |               |NÃO
+| Preço         | DOUBLE        | 10    |NÃO      |               |NÃO
 
-![Imagem](https://github.com/duuh30/vendedor/blob/master/Fluxo%20de%20Bd.svg)
