@@ -1,10 +1,11 @@
 # Trabalhando com Fluxo de Trabalho Mermaid
 ```mermaid
 graph TD
-Mercado --> Cadastrar
-Mercado --> Listar_Produtos 
-Cadastrar --> EnviarDados
-EnviarDados -->BD
+Banco
+Banco-->tbFrutas
+tbFrutas--> Nome
+tbFrutas--> Quantidade
+tbFrutas --> Preço
 ```
 
-![Imagem](https://github.com/duuh30/vendedor/blob/master/Diagrama.svg)
+![Imagem](https://github.com/duuh30/vendedor/blob/master/Fluxo%20de%20Bd.svg)
