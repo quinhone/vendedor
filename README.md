@@ -7,3 +7,4 @@ Cadastrar --> EnviarDados
 EnviarDados -->BD
 ```
 
+![Imagem](https://github.com/duuh30/vendedor/blob/master/Diagrama.svg)
