@@ -7,4 +7,4 @@ Cadastrar --> EnviarDados
 EnviarDados -->BD
 ```
 
-![Imagem](https://github.com/duuh30/vendedor/blob/master/Diagrama.svg)
+![Imagem](https://github.com/duuh30/vendedor/blob/master/Fluxo%20de%20Bd.svg)
