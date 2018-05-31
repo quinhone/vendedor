@@ -1,25 +1,15 @@
 <?php
+		// Recebe os dados do formulário de cadastro.
+			$nomeFruta = $_POST['nomeFruta'];
+			$quantidadeFruta = $_POST['quantidadeFruta'];
+			$precoFruta = $_POST['precoFruta'];
+			$tipoFruta = $_POST['tipoFruta'];
+			$unimedidaFruta = $_POST['unimedidaFruta'];
+	// Conecta com o Banco de Dados utilizando MYSQL PDO
+			$conn = new PDO('mysql:host=localhost;port=3306;dbname=mercado', 'root','');
+	// Insere na tabela os dados recebidos do Formulário. 
+			$conn->exec("INSERT INTO frutas (nome, quantidade, preco, tipoFruta, unidadeMedida) VALUES ('$nomeFruta', $quantidadeFruta, $precoFruta, '$tipoFruta', '$unimedidaFruta')");	
 
-$nome = $_POST['nome'];
-$qtd = $_POST['Quantidade'];
-$valor = $_POST['price'];
 
-
-$host='localhost';
-$user='root';
-$pass='';
-$dbname='mercado';
-
-$conn = new mysqli($host, $user, $pass, $dbname);
-
-$sql= "INSERT INTO frutas (nome, quantidade, preco ) VALUES ('$nome', $qtd, $valor)";
-
-if ($conn->query($sql) === TRUE) {
-    echo "Cadastro realizado com sucesso!";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
-
-$conn->close();
 
 ?>
