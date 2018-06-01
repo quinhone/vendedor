@@ -12,7 +12,7 @@
 
 | CAMPOS       |    TIPO        | TAMANHO  | NOT NULL |    AUTO_INCREMENT    | PRIMARY KEY
 | ------------- |:-------------:| -----:|--------:|------:        |  -------------:
-| id_tipo       | INT           | 10    | SIM     |      SIM      |   SIM     |    
+| ID            | INT           | 10    | SIM     |      SIM      |   SIM     |    
 | Nome          | VARCHAR       | 50    |NAO      |NÃO            | NÃO        |
 
 
