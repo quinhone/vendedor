@@ -20,5 +20,5 @@
 | CAMPOS        |     TIPO      |TAMANHO|NOT NULL|AUTO_INCREMENT  | Primary Key 
 | ------------- |:-------------:| -----:|--------:|------:        |  -------------:
 | qtd           | INT           | 10    | SIM     | NÃO           | SIM         |
-|UnidadeMedida  | VARCHAR       | 50    | NÃO     | NÃO|          | NÃO         |
+|UnidadeMedida  | VARCHAR       | 50    | NÃO     | NÃO|          | NÃO         | | NÃO |
 
