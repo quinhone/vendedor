@@ -19,6 +19,6 @@
 # Tabela Quantidade
 | CAMPOS        |     TIPO      |TAMANHO|NOT NULL|AUTO_INCREMENT  | Primary Key 
 | ------------- |:-------------:| -----:|--------:|------:        |  -------------:
-| qtd           | INT           | 10    | SIM     | SIM           | SIM         |
+| qtd           | INT           | 10    | SIM     | NÃO           | SIM         |
 |UnidadeMedida  | VARCHAR       | 50    | NÃO     | NÃO|          | NÃO          |
 
