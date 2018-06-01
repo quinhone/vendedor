@@ -1,0 +1,46 @@
+---------------------------------------------------
+
+Tabela Categoria
+- id
+- nome
+- imagem
+- status
+
+Exemplo de dados: Frustas, Verduras, Legumes, Granjas etc
+
+---------------------------------------------------
+
+Tabela SubCategorias
+- id
+- categoria_id
+- nome
+- imagem
+- status
+
+Exemplo de Dados: Tomate, Alface, Batata etc ou outra coisa que vc deseje, depende do negócio
+
+---------------------------------------------------
+
+Tabela Produtos
+- id
+- subcategoria_id
+- medida_id
+- codigo
+- referência
+- nome
+- descricao
+- quantidade
+- preco_atacado
+- preco_varejo
+- imagem
+...
+
+Exemplo de dados: Tomate Cereja, Tomate caqui, Tomate Holandês etc
+---------------------------------------------------
+
+Tabela Medida
+- id
+- nome
+- sigla
+
+exemplo de dados: Caixa CX, Saco SC, Pacote PC, Unidade UN etc
